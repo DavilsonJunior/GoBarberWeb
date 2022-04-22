@@ -5,9 +5,7 @@
     },
     "extends": [
         "plugin:react/recommended",
-        "airbnb",
-        "plugin:@typescript-eslint/recommended",
-        "plugin:prettier/recommended"
+        "airbnb"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
@@ -18,7 +16,6 @@
         "sourceType": "module"
     },
     "plugins": [
-        "react",
         "@typescript-eslint",
         "react-hooks",
         "prettier"
@@ -31,6 +28,7 @@
         "react/jsx-filename-extension": [1, {"extensions": [".tsx"] }],
         "import/prefer-default-export": "off",
         "react/function-component-definition": "off",
+        "import/no-extraneous-dependencies": "off",
         "@typescript-eslint/explicit-function-return-type": [
           "error",
           {
