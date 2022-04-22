@@ -31,6 +31,7 @@
         "import/prefer-default-export": "off",
         "react/function-component-definition": "off",
         "import/no-extraneous-dependencies": "off",
+        "object-curly-newline": "off",
         "@typescript-eslint/explicit-function-return-type": [
           "error",
           {
