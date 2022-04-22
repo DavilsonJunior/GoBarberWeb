@@ -5,5 +5,7 @@ export const theme = {
     border: '#312e38',
     link: '#f4Efe8',
     placeholder: '#666360',
+    error: '#c53030',
+    text: '#FFF',
   },
 };

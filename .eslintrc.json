@@ -32,6 +32,11 @@
         "react/function-component-definition": "off",
         "import/no-extraneous-dependencies": "off",
         "object-curly-newline": "off",
+        "react/jsx-no-bind": "off",
+        "no-use-before-define": "off",
+        "operator-linebreak": "off",
+        "implicit-arrow-linebreak": "off",
+        "no-unused-vars": "warn",
         "@typescript-eslint/explicit-function-return-type": [
           "error",
           {
