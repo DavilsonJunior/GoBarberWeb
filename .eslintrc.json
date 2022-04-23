@@ -37,6 +37,7 @@
         "operator-linebreak": "off",
         "implicit-arrow-linebreak": "off",
         "no-unused-vars": "warn",
+        "react/jsx-no-constructed-context-values": "off",
         "@typescript-eslint/explicit-function-return-type": [
           "error",
           {
