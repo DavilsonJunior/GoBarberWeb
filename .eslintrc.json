@@ -1,61 +1,61 @@
 {
-    "env": {
-        "browser": true,
-        "es2021": true
-    },
-    "extends": [
-        "plugin:react/recommended",
-        "airbnb"
-    ],
-    "parser": "@typescript-eslint/parser",
-    "parserOptions": {
-        "ecmaFeatures": {
-            "jsx": true
-        },
-        "ecmaVersion": "latest",
-        "sourceType": "module"
-    },
-    "plugins": [
-        "@typescript-eslint",
-        "react-hooks",
-        "prettier"
-    ],
-    "rules": {
-        "prettier/prettier": "error",
-        "react/require-default-props": "off",
-        "react/jsx-one-expression-per-line": "off",
-        "react/jsx-props-no-spreading": "off",
-        "react-hooks/rules-of-hooks": "error",
-        "react-hooks/exhaustive-deps": "warn",
-        "react/jsx-filename-extension": [1, {"extensions": [".tsx"] }],
-        "import/prefer-default-export": "off",
-        "react/function-component-definition": "off",
-        "import/no-extraneous-dependencies": "off",
-        "object-curly-newline": "off",
-        "react/jsx-no-bind": "off",
-        "no-use-before-define": "off",
-        "operator-linebreak": "off",
-        "implicit-arrow-linebreak": "off",
-        "no-unused-vars": "warn",
-        "react/jsx-no-constructed-context-values": "off",
-        "@typescript-eslint/explicit-function-return-type": [
-          "error",
-          {
-            "allowExpressions": true
-          }
-        ],
-        "import/extensions": [
-          "error",
-          "ignorePackages",
-          {
-            "ts": "never",
-            "tsx": "never"
-          }
-        ]
+  "env": {
+      "browser": true,
+      "es2021": true
+  },
+  "extends": [
+      "plugin:react/recommended",
+      "airbnb"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+      "ecmaFeatures": {
+          "jsx": true
       },
-    "settings": {
-        "import/resolver": {
-          "typescript": {}
+      "ecmaVersion": "latest",
+      "sourceType": "module"
+  },
+  "plugins": [
+      "@typescript-eslint",
+      "react-hooks",
+      "prettier"
+  ],
+  "rules": {
+      "prettier/prettier": "error",
+      "react/require-default-props": "off",
+      "react/jsx-one-expression-per-line": "off",
+      "react/jsx-props-no-spreading": "off",
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warn",
+      "react/jsx-filename-extension": [1, {"extensions": [".tsx"] }],
+      "import/prefer-default-export": "off",
+      "react/function-component-definition": "off",
+      "import/no-extraneous-dependencies": "off",
+      "object-curly-newline": "off",
+      "react/jsx-no-bind": "off",
+      "no-use-before-define": "off",
+      "operator-linebreak": "off",
+      "implicit-arrow-linebreak": "off",
+      "no-unused-vars": "warn",
+      "react/jsx-no-constructed-context-values": "off",
+      "@typescript-eslint/explicit-function-return-type": [
+        "error",
+        {
+          "allowExpressions": true
         }
+      ],
+      "import/extensions": [
+        "error",
+        "ignorePackages",
+        {
+          "ts": "never",
+          "tsx": "never"
+        }
+      ]
+    },
+  "settings": {
+      "import/resolver": {
+        "typescript": {}
       }
+    }
 }
